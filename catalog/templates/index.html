@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Recipe Catalog Home</h1>
+<p>Welcome to Recipe Catalog, a Django website developed by Erin Scott Adams.</p>
+<h6>The catalog contains the following information:</h6>
+<ul>
+    <li><strong>Recipes:</strong> {{ num_recipes }}</li>
+    <li><strong>Authors:</strong> {{ num_authors }}</li>
+    <li><strong>Recipe Categories:</strong> {{ num_categories }}</li>
+    
+</ul>
+{% endblock %}
